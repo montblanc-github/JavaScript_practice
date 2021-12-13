@@ -30,6 +30,18 @@
 // alert("Hello" + "World");
 
 // 文字列を結合する(変数利用)
-let str1 = "Hello";
-let str2 = "World!!";
-alert(str1 + str2);
+// let str1 = "Hello";
+// let str2 = "World!!";
+// alert(str1 + str2);
+
+// 条件分岐を用いて、りんごとみかんの値段を比較
+let orange = 100;
+let apple = 200;
+
+if (orange < apple) {
+  alert("みかんの値段がりんごより安い");
+} else if (orange == apple) {
+  alert("みかんとりんごが同じ値段");
+} else {
+  alert("みかんの値段がりんごより高い");
+}
