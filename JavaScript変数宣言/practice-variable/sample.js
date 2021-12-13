@@ -15,3 +15,21 @@
 // console.log(nickname);
 // const nickname = "ichiro";
 // console.log(nickname);
+
+// // varによる再代入(varとletで可能)
+// var nickname = "taro";
+// console.log(nickname);
+// nickname = "jiro";
+// console.log(nickname);
+
+// // letによる再代入(varとletで可能)
+// let nickname = "taro";
+// console.log(nickname);
+// nickname = "jiro";
+// console.log(nickname);
+
+// // constによる再代入(エラーが出る)
+// const nickname = "taro";
+// console.log(nickname);
+// nickname = "jiro";
+// console.log(nickname);
