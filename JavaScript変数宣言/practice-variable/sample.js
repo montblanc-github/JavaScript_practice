@@ -64,3 +64,27 @@
 // }
 
 // console.log(i);
+
+// 巻き上げ(undefinedが表示される、letやconstでも起こる)
+// 変数の巻き上げ＝関数内のどの部分で変数を宣言したとしても、関数冒頭で変数を宣言したことになるというもの
+// var str = "webcamp";
+
+// function foo() {
+//   console.log(str);
+//   var str = "dmm webcamp";
+//   console.log(str);
+// }
+
+// foo();
+
+// 上記内容は以下と同じ
+// var str = "webcamp";
+
+// function foo() {
+//   var str;
+//   console.log(str);
+//   str = "dmm webcamp";
+//   console.log(str);
+// }
+
+// foo();
